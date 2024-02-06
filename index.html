@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ms. C DR.</title>
+    <title>Ms. Camille D.</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/x-icon" href="cute.png" />
+    <audio id="myAudio" controls autoplay src="bfy.mp3"></audio>
   </head>
   <body>
     <body class="not-loaded">
@@ -324,6 +325,12 @@
     </body>
 
     <!-- Javascript here -->
+    <script>
+      window.onload = function () {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+      };
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
